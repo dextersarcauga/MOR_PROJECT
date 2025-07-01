@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-let latestMessage = "Waiting for ESP32...";
+let latestMessage = "SMART CHAIR DETECTION NOTIFICATION...";
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));
